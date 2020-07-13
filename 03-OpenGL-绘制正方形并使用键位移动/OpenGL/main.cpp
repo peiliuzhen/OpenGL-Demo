@@ -193,7 +193,7 @@ int main(int argc,char *argv[]) {
     glutInitDisplayMode(GLUT_DOUBLE|GLUT_DEPTH|GLUT_STENCIL);
     
     //GLUT窗口大小、窗口标题
-    glutInitWindowSize(800, 600);
+    glutInitWindowSize(600, 600);
     
     glutCreateWindow("Triangle");
     
@@ -227,3 +227,4 @@ int main(int argc,char *argv[]) {
     return  0;
     
 }
+
